@@ -235,7 +235,7 @@ from invoice i
 inner join customer c on c.cust_id=i.cust_id
 group by c.cust_name;
 
-/** Get the total amount spent by each customer. to 2 buyer**/
+/** Get the total amount spent by each customer. top 2 buyer**/
 select c.cust_name,sum(i.invoice_amt) as total_spend
 from invoice i
 inner join customer c on c.cust_id=i.cust_id
