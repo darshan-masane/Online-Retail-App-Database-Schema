@@ -500,15 +500,6 @@ drop procedure if exists TotalSalesByProduct;
 
 
 
-
-
-
-
-
-
-
-
-
 /**TABLES**/
 select * from product;
 select * from cart_details;
