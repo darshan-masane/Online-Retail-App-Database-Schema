@@ -263,21 +263,6 @@ SELECT DISTINCT product.prod_name
 FROM product
 INNER JOIN feedback ON product.prod_id = feedback.prod_id;
 
-
--- select 
---     c.cust_name,
---     p.prod_name,
---     f.comment,
---     CASE
---         WHEN f.comment LIKE '%good%' THEN '5/5'
---         WHEN f.comment LIKE '%bad%' THEN '2/5'
---         ELSE 'No rating'
---     END AS review
--- from customer c
--- inner join feedback f on c.cust_id = f.cust_id
--- inner join product p on f.prod_id = p.prod_id;
-
-
 #Get the total quantity of each product sold.
 
 select p.prod_name ,sum(cd.prod_quantity) as total_prod_sold
