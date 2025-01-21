@@ -2,12 +2,12 @@
 
 # Online Retail App Database Schema  
 
-## Project Overview  
+## Project Overview:-
 This project involves the design and implementation of a relational database schema for an online retail application. The database is structured to efficiently manage key entities such as customers, products, categories, carts, and orders. It is designed to ensure data integrity and scalability, utilizing SQL best practices and advanced schema management techniques.  
 
 ---
 
-### Features  
+### Features :-
 1. **Database Creation**  
    - The database, named `online_retail_app`, is the foundation of this project.  
 
@@ -31,7 +31,7 @@ This project involves the design and implementation of a relational database sch
 
 ---
 
-## Usage of the Project  
+## Usage of the Project :-
 
 This database schema serves multiple purposes:  
 - **Practical Implementation**: Acts as the backend for an online retail application.  
@@ -40,7 +40,7 @@ This database schema serves multiple purposes:
 
 ---
 
-## Advantages of the Project  
+## Advantages of the Project :- 
 
 - **Efficiency**: Organized structure ensures quick data retrieval and updates.  
 - **Data Integrity**: Primary and foreign key constraints maintain consistent and accurate data.  
@@ -49,7 +49,7 @@ This database schema serves multiple purposes:
 
 ---
 
-## Conclusion  
+## Conclusion  :-
 
 This project provides a well-structured and adaptable relational database schema for an online retail application. It is a great starting point for developers building e-commerce platforms or individuals looking to sharpen their SQL skills. The schema's design ensures data accuracy, efficiency, and scalability, making it both practical and educational.  
 
