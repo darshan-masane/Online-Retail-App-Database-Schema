@@ -2,7 +2,7 @@
 
 # Online Retail App Database Schema  
 
-## Project Overview:-
+## Project Overview :-
 This project involves the design and implementation of a relational database schema for an online retail application. The database is structured to efficiently manage key entities such as customers, products, categories, carts, and orders. It is designed to ensure data integrity and scalability, utilizing SQL best practices and advanced schema management techniques.  
 
 ---
