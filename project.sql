@@ -248,7 +248,6 @@ from categories cat
 inner join product p on p.prod_id=cat.prod_id;
 
 #Find all customers who have purchased products in the 'Laptop' category.
-
 select c.cust_name
 from customer c
 inner join cart_details cd on c.cust_id=cd.cust_id
@@ -257,7 +256,7 @@ inner join  categories cat on cat.prod_id=p.prod_id
 where cat_name='laptop';
 
 #Get all products that have been reviewed by customers.
-
+    
 SELECT DISTINCT product.prod_name
 FROM product
 INNER JOIN feedback ON product.prod_id = feedback.prod_id;
