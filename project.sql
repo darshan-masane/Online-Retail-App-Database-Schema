@@ -229,7 +229,6 @@ inner join product p on p.prod_id=cd.prod_id
 inner join customer c on cd.cust_id=c.cust_id;
 
 /** Get the total amount spent by each customer.**/
-
 select c.cust_name,sum(i.invoice_amt) as total_spend
 from invoice i
 inner join customer c on c.cust_id=i.cust_id
